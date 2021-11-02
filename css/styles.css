@@ -1,1 +1,70 @@
+body {
+  background-color: #FFFFFF;
+}
 
+/*логотип*/
+.logo-konstant {
+    color: #2196F3;
+}
+.logo-black{
+    color:  #000000 ;
+}
+.logo-white{
+    color: #FFFFFF;
+}
+
+/*шапка*/
+.cap{
+    background-color: #FFFFFF;
+}
+.link {
+    color: #212121;
+}
+.link:hover{
+    color: #FFFFFF;
+}
+
+/*герой студии*/
+.hero{
+    background-color:#2F303A ;
+}
+.hero-title{
+    color: #FFFFFF;
+}
+.hero-button{
+    background-color:#2196F3 ;
+    color: #FFFFFF;
+}
+
+
+/*наша команда студия*/
+.section-team{
+    background-color: #F5F4FA;
+}
+
+/*кнопки портфолио*/
+.button{
+    background-color: #F5F4FA;
+}
+.button:hover {
+   background-color: #2196F3;
+   color: #FFFFFF;
+}
+/* футер */
+.basement {
+    background-color: #2F303A;
+
+
+/*цвета макета/*
+хедер #FFFFFF 
+секция 1 и футер #2F303A
+наша команда #F5F4FA
+акцент #2196F3
+преимущества и чем заним портфолил мейн #E5E5E5
+
+
+номер тел и почта абзац карточки #757575
+ссылки хедер #212121
+фон кнопок #F5F4FA
+
+2F303A
