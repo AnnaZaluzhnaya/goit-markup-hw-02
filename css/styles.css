@@ -1,70 +1,161 @@
 body {
-  background-color: #FFFFFF;
+background-color: #ffffff;
+color: #212121;
+font-family: "Roboto", "Tahoma", "Times new roman", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
 }
 
+:root {
+--brand-color: #2196f3;
+--paragraphs-mail-tel: #757575;
+--hero-background-color: #2f303a;
+--white-font: #ffffff;
+--footer-background-color: #2f303a;
+--hero-background-color: #2f303a;
+}
 /*логотип*/
+
 .logo-konstant {
-    color: #2196F3;
+    color: var(--brand-color);
 }
-.logo-black{
-    color:  #000000 ;
+.logo-black {
+    color: #000000;
 }
-.logo-white{
-    color: #FFFFFF;
+.logo-white {
+    color: var(--white-font);
+}
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 
 /*шапка*/
-.cap{
-    background-color: #FFFFFF;
+.cap {
+    background-color: #ffffff;
 }
-.link {
+.nav-items {
+    color: #212121;
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.nav-items:hover,
+.nav-items:focus {
+    color: var(--brand-color);
+}
+
+.mail-tel {
+    color: var(--paragraphs-mail-tel);
+}
+.mail-tel:hover {
+    color: var(--brand-color);
+}
+/*герой студии*/
+.hero {
+    background-color: var(--hero-background-color);
+}
+.hero-title {
+    color: var(--white-font);
+}
+.hero-button {
+    background-color: var(--brand-color);
+}
+
+/*преимущества*/
+.benefits {
+    font-weight: bold;
+    line-height: 1.14;
+}
+.description-of-benefits {
+    line-height: 1.71;
+    color: var(--paragraphs-mail-tel);
+}
+/*наша команда студия*/
+.section-team {
+    background-color: #f5f4fa;
+}
+.section-header {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+}
+.full-name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.profession {
+    font-size: 16px;
+    line-height: 1.18px;
+    color: var(--paragraphs-mail-tel);
+}
+/*кнопки портфолио*/
+.button {
+    background-color: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.button:hover,
+.button:focus {
+    background-color: var(--brand-color);
+    color: var(--white-font);
+}
+
+/*карточки портфолио*/
+.project-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
     color: #212121;
 }
-.link:hover{
-    color: #FFFFFF;
+.type-project {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--paragraphs-mail-tel);
 }
+  /* футер */
 
-/*герой студии*/
-.hero{
-    background-color:#2F303A ;
-}
-.hero-title{
-    color: #FFFFFF;
-}
-.hero-button{
-    background-color:#2196F3 ;
-    color: #FFFFFF;
-}
-
-
-/*наша команда студия*/
-.section-team{
-    background-color: #F5F4FA;
-}
-
-/*кнопки портфолио*/
-.button{
-    background-color: #F5F4FA;
-}
-.button:hover {
-   background-color: #2196F3;
-   color: #FFFFFF;
-}
-/* футер */
 .basement {
-    background-color: #2F303A;
+    background-color: var(--footer-background-color);
+}
 
+.basement-item {
+    color: var(--white-font);
+    line-height: 1.7;
+    font-style: normal;
+}
+.basement-item:hover {
+    color: var(--brand-color);
+}
+}
 
-/*цвета макета/*
-хедер #FFFFFF 
-секция 1 и футер #2F303A
-наша команда #F5F4FA
-акцент #2196F3
-преимущества и чем заним портфолил мейн #E5E5E5
+.link {
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
 
-
-номер тел и почта абзац карточки #757575
-ссылки хедер #212121
-фон кнопок #F5F4FA
-
-2F303A
+/*другие свойства*/
+li {
+list-style-type: none;
+}
+.visually-hidden {
+position: absolute;
+clip: rect(0 0 0 0);
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+overflow: hidden;
+}
+.portfolio-link {
+text-decoration: none;
+}
