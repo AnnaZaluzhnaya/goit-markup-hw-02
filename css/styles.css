@@ -1,9 +1,9 @@
 body {
   background-color: #ffffff;
   color: #212121;
-  font-family: "Roboto", "Tahoma", "Times new roman", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  letter-spacing: normal;
   font-size: 14px;
 }
 
@@ -13,14 +13,19 @@ body {
   --hero-background-color: #2f303a;
   --white-font: #ffffff;
   --footer-background-color: #2f303a;
+  --logo-black: #000000;
+  --bgr-button-sectionteam: #f5f4fa;
+  --main-font-color: #212121;
+  --footer-tel-mail: rgba(255, 255, 255, 0.6);
 }
+
 /*логотип*/
 
 .logo-konstant {
   color: var(--brand-color);
 }
 .logo-black {
-  color: #000000;
+  color: var(--logo-black);
 }
 .logo-white {
   color: var(--white-font);
@@ -36,10 +41,10 @@ body {
 
 /*шапка*/
 .cap {
-  background-color: #ffffff;
+  background-color: var(--white-font);
 }
 .nav-items {
-  color: #212121;
+  color: var(--main-font-color);
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
@@ -55,6 +60,7 @@ body {
 .mail-tel:hover {
   color: var(--brand-color);
 }
+
 /*герой студии*/
 .hero {
   background-color: var(--hero-background-color);
@@ -76,9 +82,10 @@ body {
   line-height: 1.71;
   color: var(--paragraphs-mail-tel);
 }
+
 /*наша команда студия*/
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--bgr-button-sectionteam);
 }
 .section-header {
   font-weight: bold;
@@ -86,7 +93,7 @@ body {
   line-height: 1.17;
 }
 .full-name {
-  color: #212121;
+  color: var(--main-font-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -96,9 +103,10 @@ body {
   line-height: 1.18px;
   color: var(--paragraphs-mail-tel);
 }
+
 /*кнопки портфолио*/
 .button {
-  background-color: #f5f4fa;
+  background-color: var(--bgr-button-sectionteam);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -118,15 +126,15 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .type-project {
   font-size: 16px;
   line-height: 1.87;
   color: var(--paragraphs-mail-tel);
 }
-/* футер */
 
+/* футер */
 .basement {
   background-color: var(--footer-background-color);
 }
@@ -141,7 +149,7 @@ body {
 }
 
 .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-tel-mail);
   text-decoration: none;
 }
 
